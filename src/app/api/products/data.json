@@ -1,0 +1,152 @@
+[
+	{
+		"id": 1,
+		"name": "Audiolux AL-1000 Power Amplifier",
+		"slug": "audiolux-al-1000-power-amplifier",
+		"description": "High-precision, high-power audio amplifier with advanced noise reduction technology",
+		"price": 1000.00,
+		"images": [
+			{
+				"url": "https://picsum.photos/id/1015/400/300",
+				"alt": "Audiolux AL-1000 Power Amplifier",
+				"width": 400,
+				"height": 300
+			}
+		]
+	},
+	{
+		"id": 2,
+		"name": "Aurora AU-5000 CD Player",
+		"slug": "aurora-au-5000-cd-player",
+		"description": "Advanced digital CD player with high-resolution audio support and USB connectivity",
+		"price": 500.00,
+		"images": [
+			{
+				"url": "https://picsum.photos/id/1016/400/300",
+				"alt": "Aurora AU-5000 CD Player",
+				"width": 400,
+				"height": 300
+			}
+		]
+	},
+	{
+		"id": 3,
+		"name": "Sonus SA-2000 Speakers",
+		"slug": "sonus-sa-2000-speakers",
+		"description": "High-quality, high-fidelity speakers with advanced sound reproduction technology",
+		"price": 1500,
+		"images": [
+			{
+				"url": "https://picsum.photos/id/1025/400/300",
+				"alt": "Sonus SA-2000 Speakers",
+				"width": 400,
+				"height": 300
+			}
+		]
+	},
+	{
+		"id": 4,
+		"name": "Audiolux AL-5000 Integrated Amplifier",
+		"slug": "audiolux-al-5000-integrated-amplifier",
+		"description": "High-performance integrated amplifier with advanced audio processing and USB connectivity",
+		"price": 2000,
+		"images": [
+			{
+				"url": "https://picsum.photos/id/1018/400/300",
+				"alt": "Audiolux AL-5000 Integrated Amplifier",
+				"width": 400,
+				"height": 300
+			}
+		]
+	},
+	{
+		"id": 5,
+		"name": "Pulse PA-1000 Phono Amplifier",
+		"slug": "pulse-pa-1000-phono-amplifier",
+		"description": "High-quality phono amplifier with advanced noise reduction technology and USB connectivity",
+		"price": 500,
+		"images": [
+			{
+				"url": "https://picsum.photos/id/1019/400/300",
+				"alt": "Pulse PA-1000 Phono Amplifier",
+				"width": 400,
+				"height": 300
+			}
+		]
+	},
+	{
+		"id": 6,
+		"name": "Terra TE-1000 Turntable",
+		"slug": "terra-te-1000-turntable",
+		"description": "High-quality turntable with advanced motor control and USB connectivity",
+		"price": 1000,
+		"images": [
+			{
+				"url": "https://picsum.photos/id/1020/400/300",
+				"alt": "Terra TE-1000 Turntable",
+				"width": 400,
+				"height": 300
+			}
+		]
+	},
+	{
+		"id": 7,
+		"name": "Audiolux AL-2000 Power Amplifier",
+		"slug": "audiolux-al-2000-power-amplifier",
+		"description": "High-performance power amplifier with advanced noise reduction technology and USB connectivity",
+		"price": 2000,
+		"images": [
+			{
+				"url": "https://picsum.photos/id/1021/400/300",
+				"alt": "Audiolux AL-2000 Power Amplifier",
+				"width": 400,
+				"height": 300
+			}
+		]
+	},
+	{
+		"id": 8,
+		"name": "Aurora AU-1000 CD Player",
+		"slug": "aurora-au-1000-cd-player",
+		"description": "Advanced digital CD player with high-resolution audio support and USB connectivity",
+		"price": 1000,
+		"images": [
+			{
+				"url": "https://picsum.photos/id/1022/400/300",
+				"alt": "Aurora AU-1000 CD Player",
+				"width": 400,
+				"height": 300
+			}
+		]
+	},
+	{
+		"id": 9,
+		"name": "Sonus SA-1000 Speakers",
+		"slug": "sonus-sa-1000-speakers",
+		"description": "High-quality, high-fidelity speakers with advanced sound reproduction technology",
+		"price": 1000,
+		"images": [
+			{
+				"url": "https://picsum.photos/id/1023/400/300",
+				"alt": "Sonus SA-1000 Speakers",
+				"width": 400,
+				"height": 300
+			}
+		]
+	},
+	{
+		"id": 10,
+		"name": "Audiolux AL-3000 Integrated Amplifier",
+		"slug": "audiolux-al-3000-integrated-amplifier",
+		"description": "High-performance integrated amplifier with advanced audio processing and USB connectivity",
+		"price": 3000,
+		"images": [
+			{
+				"url": "https://picsum.photos/id/1024/400/300",
+				"alt": "Audiolux AL-3000 Integrated Amplifier",
+				"width": 400,
+				"height": 300
+			}
+		]
+	}
+]

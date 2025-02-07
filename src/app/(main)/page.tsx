@@ -10,7 +10,7 @@ export const metadata: Metadata = {
 }
 
 export default async function Home() {
-  const products = await serverFetch("http://localhost:3001/api/products")
+  const products = await serverFetch("/api/products")
 
   return (
     <>
