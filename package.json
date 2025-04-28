@@ -12,7 +12,9 @@
     "next": "15.1.6",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "react-spinners": "^0.15.0"
+    "react-photo-view": "^1.2.7",
+    "react-spinners": "^0.15.0",
+    "zod": "^3.24.3"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",

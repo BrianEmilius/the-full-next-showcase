@@ -4,15 +4,17 @@ import Link from "next/link"
 import currencyFormat from "@/lib/currency-format"
 import SubHeading from "../text/sub-heading"
 import Image from "next/image"
+import { FullProduct, ShortProduct } from "@/types/product"
 
-export default function ProductCard({ product }: Readonly<{ product: Product }>) {
+export default async function ProductCard({ product }: Readonly<{ product: ShortProduct }>) {
+	const response = await fetch(product.url)
+	const data: FullProduct = await response.json()
 	return (
 		<Link href={`/shop/${product.slug}`}>
 			<div className="shadow-md p-4">
-				<Image src={product.images[0].url} alt={product.name} width={product.images[0].width} height={product.images[0].height} />
-				<SubHeading>{product.name}</SubHeading>
-				<Paragraph>{product.description}</Paragraph>
-				<Paragraph>{currencyFormat(product.price)}</Paragraph>
+				<Image src={data.Media[0].url} alt={data.Media[0].description} width={data.Media[0].width} height={data.Media[0].height} />
+				<SubHeading>{data.name}</SubHeading>
+				<Paragraph>{currencyFormat(data.price)}</Paragraph>
 			</div>
 		</Link>
 	)

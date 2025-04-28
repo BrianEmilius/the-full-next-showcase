@@ -10,14 +10,15 @@ export const metadata: Metadata = {
 }
 
 export default async function Home() {
-  const products = await serverFetch("/api/products")
+  const response = await fetch("http://localhost:4000/api/v1/products", { cache: "no-cache" })
+  const { results: products } = await response.json()
 
   return (
     <>
       <Heading>The Full Next Showcase</Heading>
       <ProductGrid>
         {
-          products.results.map((product: Product) => <ProductCard key={product.id} product={product} />)
+          products.map((product: Product) => <ProductCard key={product.slug} product={product} />)
         }
       </ProductGrid>
     </>

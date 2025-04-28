@@ -11,6 +11,9 @@ export default function Navigation() {
 						<Link href="/">Home</Link>
 					</li>
 					<li>
+						<Link href="/blog">Blog</Link>
+					</li>
+					<li>
 						<Link href="/profile">Log in</Link>
 					</li>
 				</ul>
